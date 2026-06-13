@@ -14,4 +14,4 @@ while True:
     cv2.imshow("Video",img)
 
     if cv2.waitKey(1) & 0XFF == ord('q'):
-        breaks
+        break
