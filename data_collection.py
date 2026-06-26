@@ -13,7 +13,7 @@ mp_draw = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 
 # ---------------------------------------------------------
-label = "" 
+label = "The finger gun" 
 # ---------------------------------------------------------
 
 file_exists = os.path.isfile('two_hand_data.csv')
